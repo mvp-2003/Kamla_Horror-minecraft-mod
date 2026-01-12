@@ -1,0 +1,9 @@
+{
+  "entity.kamla.kamla": "Kamla",
+  "subtitles.entity.kamla.ambient": "Kamla whispers",
+  "subtitles.entity.kamla.hurt": "Kamla screams",
+  "subtitles.entity.kamla.death": "Kamla dies",
+  "subtitles.entity.kamla.step": "Kamla steps",
+  "subtitles.entity.kamla.chase": "Kamla chase music",
+  "subtitles.entity.kamla.attack": "Kamla attacks"
+}

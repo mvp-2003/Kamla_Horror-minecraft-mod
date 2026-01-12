@@ -1,0 +1,38 @@
+{
+  "kamla_ambient": {
+    "sounds": [
+      "kamla:entity/kamla/ambient"
+    ],
+    "subtitle": "subtitles.entity.kamla.ambient"
+  },
+  "kamla_hurt": {
+    "sounds": [
+      "kamla:entity/kamla/hurt"
+    ],
+    "subtitle": "subtitles.entity.kamla.hurt"
+  },
+  "kamla_death": {
+    "sounds": [
+      "kamla:entity/kamla/death"
+    ],
+    "subtitle": "subtitles.entity.kamla.death"
+  },
+  "kamla_step": {
+    "sounds": [
+      "kamla:entity/kamla/step"
+    ],
+    "subtitle": "subtitles.entity.kamla.step"
+  },
+  "kamla_chase": {
+    "sounds": [
+      "kamla:entity/kamla/chase"
+    ],
+    "subtitle": "subtitles.entity.kamla.chase"
+  },
+  "kamla_attack": {
+    "sounds": [
+      "kamla:entity/kamla/attack"
+    ],
+    "subtitle": "subtitles.entity.kamla.attack"
+  }
+}

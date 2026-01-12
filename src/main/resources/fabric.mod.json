@@ -3,13 +3,13 @@
 	"id": "kamla",
 	"version": "${version}",
 	"name": "Kamla",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A horror mod featuring Kamla, a terrifying hostile entity that spawns only at night in dark areas. Fast, aggressive, and deadly.",
 	"authors": [
-		"Me!"
+		"Horror Mod Developer"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FabricMC/kamla-horror-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/kamla/icon.png",

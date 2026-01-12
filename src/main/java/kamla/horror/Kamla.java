@@ -1,24 +1,29 @@
 package kamla.horror;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import kamla.horror.entity.KamlaEntity;
+import kamla.horror.entity.KamlaEntities;
+import kamla.horror.sound.KamlaSounds;
+import kamla.horror.item.KamlaItems;
+import kamla.horror.event.KamlaSpawnHandler;
 
 public class Kamla implements ModInitializer {
 	public static final String MOD_ID = "kamla";
 
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		KamlaSounds.registerSounds();
+		KamlaEntities.registerEntities();
+		KamlaItems.registerItems();
+		KamlaSpawnHandler.registerSpawns();
+		FabricDefaultAttributeRegistry.register(KamlaEntities.KAMLA, KamlaEntity.createKamlaAttributes());
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Kamla Horror Mod initialized!");
 	}
 }
